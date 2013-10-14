@@ -111,7 +111,7 @@ $(document).ready(function(){
   // the link with the id myLink will now have the query string parameter of kmi appended, so it will pass the identity to the next domain
 });
 </script>
-{% end highlight %}
+{% endhighlight %}
 
 Down the line, if the customer ever goes from being anonymous to providing some identifying info, you'll have to alias the anonymized and known id's together, rather than rely on `identify` to do the job. (The URL API treats the transferred ID as a "known" ID.)
 
